@@ -1,0 +1,93 @@
+🌍 Language Support
+The chatbot should respond in English or French based on the user’s language selection on the site.
+
+🤖 Conversational Intelligence
+Make the chatbot feel friendly, slightly funny, helpful, and modern.
+
+Include emojis in responses 🎉
+
+Casual tone, reacts like a chill junior dev or friend.
+
+Add jokes if the user asks for one.
+
+Detect offensive language and respond with:
+
+EN: “Woah buddy, don’t use that here 😅”
+
+FR: “Oula, pas de gros mots ici stp 😬”
+
+Respond to simple math questions like “1+1” or “what’s 5x6”
+
+Use fallback answers like:
+
+EN: "Hmm, not sure about that! Maybe email me?"
+
+FR: "Pas sûr de ça ! Tu peux m’envoyer un email 😉"
+
+🧠 Smart Slang & Casual Input Understanding
+The chatbot should understand slang, typos, shorthand, and informal messages in both English and French. Implement fuzzy matching or an alias system to normalize these inputs before matching them to your Q&A pairs.
+
+🟦 English Slang Examples to Understand:
+“What’s your name?” →
+
+“ur name?”, “yo who u?”, “what ur name”, “who dis”, “wat’s ur name”
+
+“Do you know HTML?” →
+
+“u do html?”, “u code html?”, “html ez for u?”, “do html?”
+
+“Can I work with you?” →
+
+“we collab?”, “team up?”, “build smth?”, “can we link up?”
+
+“Send your CV” →
+
+“gimme resume”, “where ur cv?”, “drop ur resume”, “cv plz”
+
+“Can I hire you?” →
+
+“u for hire?”, “wanna job?”, “i need a dev”, “can i pay u?”
+
+🟥 French Slang Examples to Understand:
+“C’est quoi ton nom ?” →
+
+“c koi ton nom”, “ckoi ton blaze”, “té qui”, “c ton nom”, “t'es qui toi”
+
+“Tu fais quoi ?” →
+
+“tfk”, “tu taf sur quoi”, “tu bosses sur quoi”, “tu f koi”, “tkoi ton taf”
+
+“Je peux bosser avec toi ?” →
+
+“on collab ?”, “on taf ens ?”, “on build un truc ?”
+
+“Ton CV ?” →
+
+“file ton cv”, “cv stp”, “t’as un cv ?”, “envoie le cv”, “cv où ?”
+
+“T’es dispo ?” →
+
+“dispo pr taf ?”, “t libre ?”, “jpeux te payer ?”
+
+📦 Q&A + Behavior
+Use the 30 questions and answers I’ll provide (already given)
+
+Make answers funny, casual, and emoji-rich
+
+Translate all responses into both English and French
+
+Include buttons in responses where needed (e.g., "Download CV")
+
+Store Q&A in a clean data structure (like JSON or JS object) so it’s easy to expand
+
+🎨 UI/UX Requirements:
+Bottom-right floating chat icon
+
+Clean, modern chat window
+
+Light/dark mode support (auto-adapt to site)
+
+Fully responsive on mobile and desktop
+
+Support auto-scroll for long chats
+

@@ -1,0 +1,81 @@
+🧠 Replit AI Prompt – Chatbot "Hendel"
+Add a smart, responsive chatbot named "Hendel" to my portfolio site.
+
+💡 Chatbot Features:
+The bot should appear in the bottom-right corner as a floating button/chatbox.
+
+It must respond in English or French depending on the current language selected on the website.
+
+Answers should be based on the following personality: friendly, slightly funny, helpful, and casual — uses emojis to keep things light.
+
+The bot should handle:
+
+A set of 30 predefined questions (see below)
+
+Simple math questions (e.g. "What is 1 + 1?", "What's 3 times 7?")
+
+Jokes (responds to “Tell me a joke” / “Donne-moi une blague”)
+
+Inappropriate or offensive language (responds with: "Woah buddy, don’t use that here 😅" / "Oula, pas de gros mots ici stp 😬")
+
+Unrecognized questions with a fallback response like: "Hmm, I’m not sure about that, but you can email me!"
+
+💬 Sample Questions + Answers (English & French):
+(Use the language based on selection)
+
+✅ Sample Q&A Responses:
+Q: What is your full name?
+A: Hendel Alexandre, but you can call me… if you have a job for me 😎
+FR: Hendel Alexandre, mais tu peux m'appeler… si t’as du taf pour moi 😏
+
+Q: What do you study?
+A: I'm studying Computer Science 💻
+FR: J'étudie en informatique 🧠
+
+Q: Where are you based?
+A: Quebec City, where it’s cold but my skills are hot 🔥
+FR: Québec, là où il fait froid mais mes skills sont 🔥
+
+Q: Do you have experience with HTML?
+A: Oh yeah, HTML and I go way back 😎
+FR: HTML et moi, on est en couple depuis longtemps 💅
+
+Q: Can I see your resume?
+A: Of course! Click here to download it 📄 [Insert Resume Link]
+FR: Bien sûr ! Clique ici pour le télécharger 📄 [Insérer le lien du CV]
+
+(Repeat for all your answers, translated in both languages and include emojis)
+
+🧠 Bonus Intelligence:
+Math: If the user asks "What is 1 + 1", reply:
+
+"Easy! That’s 2️⃣" / "Facile ! C’est 2️⃣"
+
+Inappropriate Words (detect cussing like f***, s***, etc.):
+
+"Woah buddy, don’t use that here 😅"
+
+"Oula, pas de gros mots ici stp 😬"
+
+Joke Request:
+
+EN: "Why don’t programmers like nature? It has too many bugs 🐛"
+
+FR: "Pourquoi les développeurs n’aiment pas la nature ? Trop de bugs ! 🐛"
+
+Fallback (if question doesn’t match):
+
+EN: "Hmm, not sure about that! Maybe try emailing me?"
+
+FR: "Hmm, je ne suis pas sûr de ça ! Tu peux m’écrire si tu veux 🤓"
+
+🧩 Tech Requirements:
+Fully responsive on all screen sizes.
+
+Support light and dark mode (matching the site theme).
+
+Clean, minimal UI for the chat window.
+
+Easy to update or expand with more Q&A pairs later.
+
+Store the Q&A pairs in a JSON file or JS object for clarity.
